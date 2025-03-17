@@ -32,7 +32,7 @@ Instalación y Uso
 
 Clona este repositorio en tu máquina local:
 
-git clone https://github.com/tuusuario/nombre-del-repositorio.git
+git clone (https://github.com/Dianakrol/desarrollo_loguin.git)
 
 Abre el archivo index.html en tu navegador.
 
@@ -70,6 +70,6 @@ Autor
 
 Diana Carolina López 🚀
 
-📌 LinkedIn📧 Correo📱 WhatsApp
+📌 [LinkedIn](https://www.linkedin.com/in/diana-carolina-lopez-ramos-47986b45/) 📧 karolopez1010@gmil.com 📱 3126972611
 
 Este proyecto fue creado con el propósito de aprender y demostrar habilidades en desarrollo web. ¡Espero que te sea útil! 😃.
