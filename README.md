@@ -44,13 +44,7 @@ Usa el botón "Cerrar Sesión" para salir.
 
 Estructura del Proyecto
 
-📁 login-project/
-│-- 📄 index.html   # Estructura del login
-│-- 📄 styles.css   # Estilos modernos y responsivos
-│-- 📄 script.js    # Lógica de autenticación y efectos visuales
-│-- 📄 README.md    # Documentación del proyecto
-│-- 📁 src/         # Carpeta para imágenes y recursos
-│   └── logo.png    # Logo de la aplicación
+📦 src ┣ 📂 css ┃ ┗ 📜 styles.css # Estilos de la página ┣ 📂 images # Imágenes utilizadas en el proyecto ┣ 📜 script.js # Lógica del frontend ┣ 📜 index.html # Página principal ┗ 📜 README.md #
 
 Mejoras Futuras
 
