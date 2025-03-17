@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e0e0e0, #f8f8f8); /* Fondo degradado gris claro */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* Títulos */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Campos de entrada */
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Botón de inicio de sesión */
+#loginButton {
+    width: 100%;
+    background: #4A90E2;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#loginButton:hover {
+    background: #357ABD;
+}
+
+/* Spinner de carga */
+#loginButton .spinner {
+    display: none;
+    width: 18px;
+    height: 18px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top: 3px solid #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Mensaje de bienvenida */
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4A90E2;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.message.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Botón de cerrar sesión */
+#logoutButton {
+    width: 100%;
+    background: #FF5252;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+    transition: background 0.3s;
+}
+
+#logoutButton:hover {
+    background: #D32F2F;
+}
+
+/* Diseño responsivo */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 30px;
+    }
+}
